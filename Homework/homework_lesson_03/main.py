@@ -3,7 +3,7 @@ secondsInHour = 60 * 60
 secondsInMinute = 60
 
 
-def secondsToDays(seconds):
+defsecondsToDays(seconds):
     return seconds // secondsInDay
 
 
