@@ -1,9 +1,10 @@
-from typing import Tuple, Any
-
-l = int(input("Длинна стороны квадрата: "))
-p = l * 4
-a = l ** 2
-d = l ** 0.5
-result: tuple[int, int | Any, Any] = (p, a, d)
-print("Периметр, площадь, диагональ квадрата.", result)
-
+# Task 1.1
+# Пользователь вводит одно число, сторона квардата.
+# Вывести кортеж из трёх чисел: периметр квадрата, площадь квадрата, диагональ квадрата.
+#
+side = float(input('Введите длину стороны квадрата: '))
+perimeter = 4 * side
+area = side ** 2
+diagonal = side ** 0.5
+result = (perimeter, area, diagonal)
+print('периметр, площадь, диагональ:', result)
