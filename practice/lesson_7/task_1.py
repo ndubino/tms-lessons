@@ -4,4 +4,5 @@ students_list = [
     ('Sidr', 'Sidorov', 2004)
 ]
 
-sorted_list = sorted(students_list, key=lambda student: students_list[1])
+sorted_list = sorted(students_list, key=lambda s: s[2])
+print(sorted_list)

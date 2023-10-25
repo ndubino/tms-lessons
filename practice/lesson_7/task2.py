@@ -5,7 +5,7 @@ students_list = [
 ]
 
 def get_surname(student: tuple) -> str:
-    return student[1]
+    return student[2]
 
 
 sorted_list = sorted(students_list, key=get_surname)
