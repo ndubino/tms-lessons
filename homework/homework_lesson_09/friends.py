@@ -1,12 +1,12 @@
 from person import Person
 
-
 my_friends = [
     Person('Ivan Ivanov', 20, 'M'),
     Person('Anna Ivanova', 25, 'F'),
     Person('Sergey Petrov', 30, 'M'),
     Person('Elena Sidorova', 28, 'F')
 ]
+
 
 def get_oldest_person(lst):
     oldest = None
