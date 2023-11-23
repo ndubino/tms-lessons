@@ -3,7 +3,7 @@ from unittest.mock import patch
 
 import requests
 
-from practice import divide_two_numbers
+from practice_autotest.lesson_18.practice import divide_two_numbers
 
 
 def mocked_get(*args, **kwargs):
